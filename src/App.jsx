@@ -11,6 +11,7 @@ import ProfilePage from './pages/ProfilePage'
 import Login from './components/Login'
 import ProductsPage from './pages/ProductsPage'
 import AboutPage from './pages/AboutPage'
+import Contact from './pages/Contact'
 import Footer from './components/Footer'
 
 const App = () => {
@@ -37,6 +38,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/products" element={<ProductsPage/>} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/cart" element={<CartPage />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<RegisterPage />} />
