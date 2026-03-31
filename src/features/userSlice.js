@@ -3,7 +3,6 @@ import { toast } from 'react-toastify';
 import { setFavorites } from './favoritesSlice';
 import { setCart } from './cartSlice';
 
-// Helper to update Local Storage
 const updateLocalStorageUser = (updatedUser) => {
   const users = JSON.parse(localStorage.getItem('users')) || [];
   const index = users.findIndex(u => u.email === updatedUser.email);
